@@ -57,13 +57,13 @@
             parentForm: '.form-group',
             rules: [
                 Validator.isRequired('#fullname','Vui lòng nhập họ và tên'),
-                Validator.isRequired('#email','Vui lòng nhập Trường này'),
-                Validator.isEmail('#email', 'Vui lòng nhập gmail'),
-                Validator.minLength('#password',8),
-                Validator.isRequired('#password_confirmation','Vui lòng nhập Trường này'),
-                Validator.isConfirmed('#password_confirmation',function() {
-                    return document.querySelector('#form-1 #password').value;
-                }, 'Mật khẩu nhập lại không chính xác'),
+                // Validator.isRequired('#email','Vui lòng nhập Trường này'),
+                // Validator.isEmail('#email', 'Vui lòng nhập gmail'),
+                // Validator.minLength('#password',8),
+                // Validator.isRequired('#password_confirmation','Vui lòng nhập Trường này'),
+                // Validator.isConfirmed('#password_confirmation',function() {
+                //     return document.querySelector('#form-1 #password').value;
+                // }, 'Mật khẩu nhập lại không chính xác'),
 
             ],
             submit: function(data) {

@@ -112,14 +112,7 @@ Validator = function (options) {
 
         // console.log(ruleOptions);
     }
-
-    
-
-
 }
-
-
-
 
 Validator.isRequired = function(selector, message) {
     return {
